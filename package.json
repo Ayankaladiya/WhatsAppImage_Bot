@@ -1,0 +1,31 @@
+{
+  "name": "whatsapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.15.0",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "fuse.js": "^7.3.0",
+    "heic-convert": "^2.1.0",
+    "openai": "^4.4.0",
+    "sharp": "^0.34.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayankaladiya/WhatsappBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ayankaladiya/WhatsappBot/issues"
+  },
+  "homepage": "https://github.com/Ayankaladiya/WhatsappBot#readme"
+}

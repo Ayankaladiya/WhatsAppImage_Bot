@@ -1,0 +1,11 @@
+node_modules
+logs
+images
+ngrok.exe
+cache
+output
+*.md
+*.txt
+data
+.json
+.env
