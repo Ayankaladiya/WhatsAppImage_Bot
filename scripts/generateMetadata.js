@@ -23,7 +23,7 @@ const { execFileSync } = require("child_process");
 // designs.json is the runtime source of truth.
 // =============================================================================
 
-const PLATFORM = "windows";
+const PLATFORM = "linux";
 
 const PATHS = {
   windows: {
@@ -32,8 +32,8 @@ const PATHS = {
   },
 
   linux: {
-    imagesRoot: "/home/ayan/project/images",
-    outputFile: "/home/ayan/project/whatsapp-bot/data/designs.json",
+    imagesRoot: "/home/kishan/projects/images",
+    outputFile: "/home/kishan/projects/WhatsAppImage_Bot/data/designs.json",
   },
 };
 
