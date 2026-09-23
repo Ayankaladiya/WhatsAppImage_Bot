@@ -75,7 +75,7 @@ const factoryConfig = {
   astica: {
     aliases: ["astica"],
     sizeRequired: false,
-    surfaceRequired: true,
+    surfaceRequired: false,
     sizes: ["600x1200", "600x600"],
     sizeAliases: ALIASES_600x1200,
     preferredSize: "600x1200",
