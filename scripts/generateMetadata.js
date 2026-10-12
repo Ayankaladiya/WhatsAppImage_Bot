@@ -7,7 +7,7 @@ require("dotenv").config();
 // CONFIG
 // =============================================================================
 
-const PLATFORM = "windows";
+const PLATFORM = "linux";
 
 const PATHS = {
   windows: {
