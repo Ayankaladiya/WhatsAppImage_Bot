@@ -46,7 +46,7 @@ const factoryConfig = {
     stripPrefixes: [],
     faceSuffixes: STANDARD_FACE_SUFFIXES,
     ignoreTokensAnywhere: [],
-    ignoreTokensSuffixes: [],
+    ignoreTokensSuffixes: [" copy"],
   },
   armano: {
     aliases: ["armano"],
@@ -70,7 +70,7 @@ const factoryConfig = {
     // sp listed once (was duplicated in original)
     faceSuffixes: [...PUNCH_FACE_SUFFIXES, "cobalt blue", "caramel"],
     ignoreTokensAnywhere: [],
-    ignoreTokensSuffixes: [],
+    ignoreTokensSuffixes: [" copy"],
   },
   astica: {
     aliases: ["astica"],
@@ -99,7 +99,7 @@ const factoryConfig = {
     stripPrefixes: ["ic", "express", "mono", "emr", "mr", "pm", "shg", "liniar", "matt", "panels", "storey", "bp", "lp", "sp"],
     faceSuffixes: [...STANDARD_FACE_SUFFIXES, "decor", "decore", "dk", "hl", "lt","-dk", "-lt", "-hl"],
     ignoreTokensAnywhere: [],
-    ignoreTokensSuffixes: ["(flutted punch)", "(slate punch)", "sp", "sandy"],
+    ignoreTokensSuffixes: ["(flutted punch)", "(slate punch)", "sp", "sandy", " copy"],
   },
   blackberry: {
     aliases: ["blackberry"],
@@ -127,7 +127,7 @@ const factoryConfig = {
     stripPrefixes: ["ic", "express", "mono", "emr", "mr", "pm", "shg", "liniar", "matt", "panels", "storey", "bp", "lp", "sp"],
     faceSuffixes: PUNCH_FACE_SUFFIXES,
     ignoreTokensAnywhere: [],
-    ignoreTokensSuffixes: ["(flutted punch)", "(slate punch)", "sp", "sandy"],
+    ignoreTokensSuffixes: ["(flutted punch)", "(slate punch)", "sp", "sandy"," copy"],
   },
   gc: {
     aliases: ["gc", "gc granito"],
@@ -142,14 +142,14 @@ const factoryConfig = {
     stripPrefixes: [],
     faceSuffixes: STANDARD_FACE_SUFFIXES,
     ignoreTokensAnywhere: [],
-    ignoreTokensSuffixes: [],
+    ignoreTokensSuffixes: [" copy"],
   },
   lanford: {
     aliases: ["Lanford"],
     sizeRequired: false,
     surfaceRequired: false,
     sizes: ["400x400"],
-    sizeAliases: ALIASES_400x400,
+    sizeAliases: {"400x400": "400*400","400*400": "400x400", "16x16": "400*400","16*16": "400x400"},
     preferredSize: {"16x16": "400x400", "16*16": "400x400",},
     surfaces: {
       Parking: ["Parking", "ic"],
@@ -157,7 +157,7 @@ const factoryConfig = {
     stripPrefixes: [],
     faceSuffixes: STANDARD_FACE_SUFFIXES,
     ignoreTokensAnywhere: [],
-    ignoreTokensSuffixes: [],
+    ignoreTokensSuffixes: [" copy"],
   },
   ldecor: {
     aliases: ["ldecor"],
@@ -172,7 +172,7 @@ const factoryConfig = {
     stripPrefixes: [],
     faceSuffixes: STANDARD_FACE_SUFFIXES,
     ignoreTokensAnywhere: [],
-    ignoreTokensSuffixes: [],
+    ignoreTokensSuffixes: [" copy"],
   },
   leopard: {
     aliases: ["leopard"],
@@ -194,7 +194,7 @@ const factoryConfig = {
     stripPrefixes: ["ic", "hg", "dg", "emr", "mr", "pm", "shg", "liniar", "matt", "panels", "storey"],
     faceSuffixes: STANDARD_FACE_SUFFIXES,
     ignoreTokensAnywhere: [],
-    ignoreTokensSuffixes: [],
+    ignoreTokensSuffixes: [" copy"],
   },
   letina: {
     aliases: ["letina"],
@@ -211,7 +211,7 @@ const factoryConfig = {
     stripPrefixes: [],
     faceSuffixes: STANDARD_FACE_SUFFIXES,
     ignoreTokensAnywhere: [],
-    ignoreTokensSuffixes: [],
+    ignoreTokensSuffixes: [" copy"],
   },
   letoza: {
     aliases: ["letoza", "Letoza"],
@@ -235,14 +235,14 @@ const factoryConfig = {
     stripPrefixes: ["ic", "hg", "dg", "emr", "mr", "pm", "shg", "liniar", "matt", "panels", "storey"],
     faceSuffixes: STANDARD_FACE_SUFFIXES,
     ignoreTokensAnywhere: [],
-    ignoreTokensSuffixes: [],
+    ignoreTokensSuffixes: [" copy"],
   },
   lomino: {
     aliases: ["lomino"],
     sizeRequired: false,
     surfaceRequired: false,
     sizes: ["400x400"],
-    sizeAliases: "",
+    sizeAliases: {"400x400": "400*400","400*400": "400x400", "16x16": "400*400","16*16": "400x400"},
     preferredSize: {
       "16x16": "400x400", "16*16": "400x400",
     },
@@ -252,7 +252,7 @@ const factoryConfig = {
     stripPrefixes: [],
     faceSuffixes: STANDARD_FACE_SUFFIXES,
     ignoreTokensAnywhere: [],
-    ignoreTokensSuffixes: [],
+    ignoreTokensSuffixes: [" copy"],
   },
   lovel: {
     aliases: ["Lovel", "loval"],
@@ -270,7 +270,7 @@ const factoryConfig = {
     stripPrefixes: [],
     faceSuffixes: STANDARD_FACE_SUFFIXES,
     ignoreTokensAnywhere: [],
-    ignoreTokensSuffixes: [],
+    ignoreTokensSuffixes: [" copy"],
   },
   parcos: {
     aliases: ["parcos"],
@@ -296,7 +296,7 @@ const factoryConfig = {
     stripPrefixes: [],
     faceSuffixes: STANDARD_FACE_SUFFIXES,
     ignoreTokensAnywhere: [],
-    ignoreTokensSuffixes: [],
+    ignoreTokensSuffixes: [" copy"],
   },
   gc: {
     aliases: ["gc", "gc granito"],
@@ -311,7 +311,7 @@ const factoryConfig = {
     stripPrefixes: [],
     faceSuffixes: STANDARD_FACE_SUFFIXES,
     ignoreTokensAnywhere: [],
-    ignoreTokensSuffixes: [],
+    ignoreTokensSuffixes: [" copy"],
   },
   segam: {
     aliases: ["segam"],
@@ -340,7 +340,7 @@ const factoryConfig = {
     stripPrefixes: ["crv", "decor"],
     faceSuffixes: [...STANDARD_FACE_SUFFIXES, "l1", "l2", "l3", "l4", "l5", "l6"],
     ignoreTokensAnywhere: [],
-    ignoreTokensSuffixes: [],
+    ignoreTokensSuffixes: [" copy"],
   },
   skype: {
     aliases: ["skype"],
@@ -369,7 +369,7 @@ const factoryConfig = {
     stripPrefixes: [],
     faceSuffixes: STANDARD_FACE_SUFFIXES,
     ignoreTokensAnywhere: [],
-    ignoreTokensSuffixes: [],
+    ignoreTokensSuffixes: [" copy"],
   },
   vetican: {
     aliases: ["vetican"],
@@ -391,7 +391,7 @@ const factoryConfig = {
     stripPrefixes: ["ic", "express", "mono", "emr", "mr", "pm", "shg", "liniar", "matt", "panels", "galaxy"],
     faceSuffixes: STANDARD_FACE_SUFFIXES,
     ignoreTokensAnywhere: [],
-    ignoreTokensSuffixes: ["galaxy"],
+    ignoreTokensSuffixes: ["galaxy", " copy"],
   },
   zed: {
     aliases: ["zed"],
@@ -413,7 +413,7 @@ const factoryConfig = {
     stripPrefixes: ["ic", "express", "mono", "emr", "mr", "pm", "shg", "liniar", "matt", "panels", "galaxy"],
     faceSuffixes: STANDARD_FACE_SUFFIXES,
     ignoreTokensAnywhere: [],
-    ignoreTokensSuffixes: ["galaxy"],
+    ignoreTokensSuffixes: ["galaxy", " copy"],
   },
 };
 
